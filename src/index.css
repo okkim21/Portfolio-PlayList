@@ -1,13 +1,241 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0;
+  min-height: 100%;
+  color: #fff;
+  background: rgb(104, 211, 240);
+  background: linear-gradient(
+      166deg,
+      rgba(104, 211, 240, 1) 0%,
+      rgba(0, 0, 0, 1) 35%,
+      rgba(0, 13, 15, 1) 100%
+    )
+    no-repeat fixed;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: 1.5em;
+  color: #faa541;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  /* padding-left: 20px; */
+}
+
+header img {
+  max-height: 50px;
+}
+
+header ul {
+  padding-inline-start: 20px;
+}
+
+header li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  background: rgb(3, 161, 182);
+  width: 100%;
+}
+
+.top {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.container {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+main {
+  text-align: left;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  flex-shrink: 0;
+}
+
+.playLists {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#playList_container {
+  margin: 5px;
+  padding: 5px;
+}
+
+.playLists img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+.songListsHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.playListImage {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.songLists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.songDetails {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.songDesc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.songLists img {
+  width: 100%;
+  max-width: 90px;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+  #playList_container  {
+    padding: 20px;
+    margin-right: 10px;
+    background:rgba(255, 254, 254, 0.1);
+  }
+
+  .add-form {
+    width: 50%;
+  }
+
+  .formButton {
+    display: flex;
+  }
+
+  .songDetails {
+    width: 70%;
+    padding: 20px;
+    margin-right: 10px;
+    background:rgba(255, 254, 254, 0.1);
+  }
+  .songLists img {
+    max-width: 150px;
+  }
+
 }

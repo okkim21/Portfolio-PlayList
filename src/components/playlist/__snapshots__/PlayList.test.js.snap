@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering PalyList component renders PlayList Component without crashing 1`] = `ShallowWrapper {}`;
+
+exports[`rendering component renders PlayList Component without crashing 1`] = `ShallowWrapper {}`;

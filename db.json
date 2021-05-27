@@ -1,0 +1,83 @@
+{
+  "playlists": [
+    {
+      "id": 2,
+      "name": "Summer_PlayList",
+      "date": "06/01/2020",
+      "image": "album5.jpg",
+      "songLists": [
+        {
+          "id": 1,
+          "songName": "summersong1",
+          "image": "album6.jpg",
+          "singer": "summersinger1",
+          "albumName": "summeralbum1",
+          "releasedate": "01/01/2016",
+          "label": "summerlable1"
+        },
+        {
+          "id": 2,
+          "songName": "summersong2",
+          "image": "album7.jpg",
+          "singer": "summersinger2",
+          "albumName": "summeralbum2",
+          "releasedate": "01/02/2016",
+          "label": "summerlable2"
+        },
+        {
+          "id": 3,
+          "songName": "summersong3",
+          "image": "album8.jpg",
+          "singer": "summersinger3",
+          "albumName": "summeralbum3",
+          "releasedate": "01/03/2016",
+          "label": "summerlable3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Winter_PlayList",
+      "date": "12/01/2020",
+      "image": "album10.jpg",
+      "songLists": [
+        {
+          "id": 1,
+          "songName": "wintersong1",
+          "image": "album10.jpg",
+          "singer": "wintersinger1",
+          "albumName": "winteralbum1",
+          "releasedate": "01/01/2019",
+          "label": "winterlable1"
+        },
+        {
+          "id": 2,
+          "songName": "wintersong2",
+          "image": "album11.jpg",
+          "singer": "wintersinger2",
+          "albumName": "winteralbum2",
+          "releasedate": "01/02/2019",
+          "label": "winterlable2"
+        },
+        {
+          "id": 3,
+          "songName": "wintersong3",
+          "image": "album12.jpg",
+          "singer": "wintersinger3",
+          "albumName": "winteralbum3",
+          "releasedate": "01/03/2019",
+          "label": "winterlable3"
+        },
+        {
+          "id": 4,
+          "songName": "wintersong4",
+          "image": "album13.jpg",
+          "singer": "wintersinger4",
+          "albumName": "winteralbum4",
+          "releasedate": "01/04/2019",
+          "label": "winterlable4"
+        }
+      ]
+    }
+  ]
+}
